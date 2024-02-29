@@ -1,4 +1,6 @@
-// SimpleCounter.v
+// SimpleCounter
+
+
 module SimpleCounter(
   input wire clk,
   input wire rst,
