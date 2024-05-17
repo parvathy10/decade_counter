@@ -10,10 +10,7 @@ module DecadeCounter(
   wire [3:0] simple_count_out;
 
   // Instantiate the SimpleCounter module
-  SimpleCounter simple_counter_inst (
-    .clk(clk),
-    .rst(rst),
-    .count(simple_count_out)
+  SimpleCounter simple_counter_inst (.clk(clk), .rst(rst),.count(simple_count_out)
   );
 
   // Assign the value from SimpleCounter to the output count
